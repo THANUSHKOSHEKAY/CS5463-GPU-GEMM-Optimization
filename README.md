@@ -14,3 +14,20 @@ This project will use three competitive approaches of computing by GMUs. C=AxB: 
 
 A GPU cluster will be analyzed in terms of performance through CUDA event-based timing in different sizes of matrices (e.g., 256x256 until 4096x4096). Measures will consist of the execution time (ms), throughput (GFLOP/s), as well as the speedup against the middle- ground implementations. Validity will be validated by means of comparing numbers with a credible reference implementation. The final deliverable will be the performance plots and memory access behavior, synchronization behavior analysis, and trade-off between the complexity of implementation and rate of optimization. The project is expected to provide individual insight into the practical understanding of the memory hierarchy of the GPUs, parallel workload mapping, as well as the strategies of optimization of the accelerator-based computing.
 <img width="468" height="607" alt="image" src="https://github.com/user-attachments/assets/b038bf45-2177-4d62-9ed8-7d6777ba795a" />
+
+## Bibliography
+
+1. NVIDIA CUDA C Programming Guide  
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+
+2. NVIDIA cuBLAS Library Documentation  
+https://docs.nvidia.com/cuda/cublas/index.html
+
+3. CUDA C++ Best Practices Guide  
+https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
+
+4. NVIDIA CUTLASS Library  
+https://github.com/NVIDIA/cutlass
+
+5. Programming Massively Parallel Processors (Hwu, Kirk, El Hajj)  
+https://www.elsevier.com/books/programming-massively-parallel-processors/hwu/9780323912310
